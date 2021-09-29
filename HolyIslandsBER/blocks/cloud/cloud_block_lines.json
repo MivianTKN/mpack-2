@@ -1,0 +1,25 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:block": {
+     "description": {
+        "identifier": "holyislands:cloud_block_lines",
+        "register_to_creative_menu": true,
+        "is_experimental": false
+      },
+      "components": {
+        "minecraft:on_player_destroyed": {
+          "event": "break:particle",
+          "target": "self"
+      },
+      "minecraft:explosion_resistance": 1,
+      "minecraft:destroy_time": 1.0
+      },
+      "events": {
+        "break:particle": {
+            "run_command": {
+                  "command": "particle minecraft:knockback_roar_particle ~ ~ ~"
+                }
+            }
+        }
+    }
+}

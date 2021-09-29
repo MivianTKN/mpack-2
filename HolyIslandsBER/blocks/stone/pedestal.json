@@ -1,0 +1,41 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "holyislands:pedestal",
+            "register_to_creative_menu": true
+        },
+        "components": {
+        "minecraft:loot": "loot_tables/empty.json",
+        "minecraft:on_player_destroyed": {
+          "condition": "query.get_equipped_item_name == 'sacred_oak_wood_pickaxe'",
+          "event": "drop:drop_loot",
+          "target": "self"
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "pedestal",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:pick_collision": {
+                "origin":  [ -8, 0, -8],
+                "size":    [ 16, 16, 16]
+            },
+            "minecraft:entity_collision": {
+                "origin":  [ -8, 0, -8],
+                "size":    [ 16, 16, 16]
+            },
+            "minecraft:geometry": "geometry.pedestal",
+            "minecraft:destroy_time": 3,
+            "minecraft:block_light_emission": 0.5
+        },
+        "events": {
+            "drop:drop_loot": {
+                "spawn_loot": {
+                    "table": "loot_tables/blocks/pedestal.json"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 3,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8                             
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:torch",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 6,
+                                "max": 10                      
+                             }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:coal",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 6                      
+                            }
+                        }
+                    ]
+                },
+                {          
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 6,
+                                "max": 12
+                            }
+                        }
+                    ]
+                },
+                {          
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:gold_nugget",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 6,
+                                "max": 12     
+                            }
+                        }
+                    ]
+                },
+                {          
+                    "type": "item",
+                    "weight": 100,
+                    "name": "holyislands:black_sun_berry_bush_seeds",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2  
+                            }
+                        }
+                    ]
+                },
+                {          
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:string",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 5                                         
+                            }
+                        }
+                    ]
+                },
+                {          
+                    "type": "item",
+                    "weight": 10,
+                    "name": "holyislands:cloud_rune"
+                },
+                {          
+                    "type": "item",
+                    "weight": 10,
+                    "name": "holyislands:iron_mimic_key"
+                },
+                {          
+                    "type": "item",
+                    "weight": 10,
+                    "name": "holyislands:golden_light_wand"
+                }
+            ]
+        }
+    ]
+}

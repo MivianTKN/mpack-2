@@ -1,0 +1,57 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:block": {
+      "description": {
+          "identifier": "holyislands:black_sun_berry_bush_grow"
+      },
+      "components": {
+          "minecraft:material_instances": {
+              "*": {
+                  "texture": "black_sun_berry_bush_1",
+                  "render_method": "alpha_test"
+              }
+          },
+          "minecraft:pick_collision": {
+              "origin": [ -3, 0, -3 ],
+              "size": [ 6, 6, 6 ]
+            },
+            "minecraft:entity_collision": {
+                "origin":  [ -3, 0, -3],
+                "size":    [ 6, 6, 6]
+            },
+          "minecraft:geometry": "geometry.black_sun_berry_bush_grow",
+          "minecraft:destroy_time": 0.5,
+          "minecraft:loot": "loot_tables/blocks/black_sun_berry_bush_grow.json",
+          "minecraft:flammable": {
+              "flame_odds": 2,
+              "burn_odds": 0.6
+          },
+          "minecraft:block_light_emission": 0.0,
+          "minecraft:block_light_absorption": 0.0,
+          "minecraft:placement_filter": {
+              "conditions": [
+                  {
+                      "block_filter": [ "holyislands:sacred_grass_block","holyislands:sacred_dirt_block" ],
+                      "allowed_faces": [ "up" ]
+                  }
+              ]
+          },
+          "minecraft:ticking": {
+              "looping": true,
+              "range": [ 658, 849 ],
+              "on_tick": {
+                  "event": "fruit:fruit",
+                  "target": "self"
+              }
+          }
+      },
+      "events": {
+          "fruit:fruit": {
+              "set_block_at_pos": {
+                  "block_type": "holyislands:black_sun_berry_bush_1",
+                  "block_offset": [ 0, 0, 0 ]
+              }
+          }
+      }
+  }
+}

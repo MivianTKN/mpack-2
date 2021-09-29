@@ -1,0 +1,39 @@
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "holyislands:sacred_tallgrass_2"
+		},
+		"components": {
+			"minecraft:destroy_time": 0,
+			"minecraft:geometry": "geometry.grass",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "sacred_tallgrass_2",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-5,	0,-5
+				],
+				"size": [
+					10,	6, 10
+				]
+			},
+			"minecraft:block_light_absorption": 0,
+			"minecraft:entity_collision": false,
+			"minecraft:loot": "loot_tables/blocks/sacred_tallgrass_block.json",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			}
+		},
+		"events": {}
+	}
+}

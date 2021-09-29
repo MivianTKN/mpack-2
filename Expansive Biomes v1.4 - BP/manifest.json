@@ -1,0 +1,58 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§bExpansive Biomes §fv1.4 by §eiKorbon§f - §2BP",
+		"description": "Adds more biomes to the game! v1.4 §bTwitter - §f@iKorbon §cYouTube - §fiKorbon§f",
+		"version": [
+			1,
+			0,
+			8
+		],
+		"min_engine_version": [
+			1,
+			17,
+			0
+		],
+		"uuid": "71171c6d-1cd1-4351-a8d4-69b19bc5fef2"
+	},
+	"modules": [
+		{
+			"type": "data",
+			"version": [
+				1,
+				0,
+				8
+			],
+			"uuid": "9a5bdf12-1945-44dc-b0ae-e1081bad937e"
+		}
+	],
+	"dependencies": [
+		{
+			"version": [
+				1,
+				0,
+				8
+			],
+			"uuid": "e5be406d-cd7d-4e34-bf8f-18875a22f7c0"
+		}
+	],
+	"subpacks": [
+		{
+			"folder_name": "Disable Mobs",
+			"name": "§6Disable Addon Mobs §4(May cause errors)§f",
+			"memory_tier": 1
+		},
+		{
+			"folder_name": "Add Mobs",
+			"name": "§2Include Addon Mobs §f(Default)§f",
+			"memory_tier": 0
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"1.8.3"
+			]
+		}
+	}
+}

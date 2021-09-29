@@ -1,0 +1,31 @@
+{
+  "format_version": 1.16,
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "holyislands:cloud_apple"
+    },
+    "tags": [
+      "sacred_oak_crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "holyislands:cloud_orb",
+        "data": 0
+      },
+      "B": {
+        "item": "holyislands:sacred_apple",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "holyislands:cloud_apple",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

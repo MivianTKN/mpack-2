@@ -1,0 +1,73 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "holyislands:sacred_wood_chair",
+            "properties": {
+                "holyislands:furniture_face": [ 2, 3, 4, 5 ]
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "sacred_wood_chair",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:pick_collision": {
+                "origin": [ -8, 0, -8 ],
+                "size": [ 16, 16, 16 ]
+            },
+            "minecraft:entity_collision": {
+                "origin":  [ -8, 0, -8 ],
+                "size":    [ 16, 7, 16]
+            },
+            "minecraft:geometry": "geometry.sacred_wood_chair",
+            "minecraft:destroy_time": 0.5,
+            "minecraft:on_player_placing": {
+                "event": "holyislands:place"
+            },
+            "minecraft:friction": 0.6,
+            "minecraft:map_color": "#00ff00",
+            "minecraft:flammable": {
+                "flame_odds": 0,
+                "burn_odds": 0
+            },
+            "minecraft:block_light_emission": 0.0,
+            "minecraft:block_light_absorption": 0.0
+        },
+        "events": {
+            "holyislands:place": {
+                "set_block_property": {
+                    "holyislands:furniture_face": "(query.cardinal_facing_2d)"
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_property('holyislands:furniture_face') == 2",
+                "components": {
+                    "minecraft:block_light_emission": 0.0
+                }
+            },
+            {
+                "condition": "query.block_property('holyislands:furniture_face') == 3",
+                "components": {
+                    "minecraft:rotation": [ 0, 180, 0 ]
+                }
+            },
+            {
+                "condition": "query.block_property('holyislands:furniture_face') == 4",
+                "components": {
+                    "minecraft:rotation": [ 0, 90, 0 ]
+                }
+            },
+            {
+                "condition": "query.block_property('holyislands:furniture_face') == 5",
+                "components": {
+                    "minecraft:rotation": [ 0, 270, 0 ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+item.spawn_egg.entity.holyislands:mimic_iron_sky_chest.name=Spawn Iron Mimic
+entity.holyislands:mimic_iron_sky_chest.name=Iron mimic
+
+item.spawn_egg.entity.holyislands:mimic_iron_sky_chest_ally.name=Spawn Iron Mimic §aAlly
+entity.holyislands:mimic_iron_sky_chest_ally.name=Iron Mimic §aAlly
+
+item.spawn_egg.entity.holyislands:living_cloud.name=Spawn Living cloud
+entity.holyislands:living_cloud.name=Living Cloud
+
+item.spawn_egg.entity.holyislands:small_storm.name=Spawn Small Storm
+entity.holyislands:small_storm.name=Small Storm
+
+item.spawn_egg.entity.holyislands:mini_small_storm_ally.name=Spawn Mini Small Storm §aAlly
+entity.holyislands:mini_small_storm_ally.name=Mini Small Storm §aAlly

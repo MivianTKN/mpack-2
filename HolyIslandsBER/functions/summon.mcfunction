@@ -1,0 +1,1 @@
+execute @e[name="item.holyislands:mimic_iron_chest_spawn"] ~ ~ ~ function mimic_iron_chest_spawn

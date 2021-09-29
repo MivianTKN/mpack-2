@@ -1,0 +1,26 @@
+{
+  "format_version": 1.16,
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "holyislands:sacred_oak_wood_planks_block_sacred"
+    },
+    "tags": [
+      "sacred_oak_crafting_table"
+    ],
+    "pattern": [
+      "A ",
+      "  "
+    ],
+    "key": {
+      "A": {
+        "item": "holyislands:sacred_oak_log_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "holyislands:sacred_oak_wood_planks_block",
+      "count": 4,
+      "data": 0
+    }
+  }
+}

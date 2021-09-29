@@ -1,0 +1,31 @@
+{
+  "format_version": 1.16,
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "holyislands:sacred_stone_axe"
+    },
+    "tags": [
+      "sacred_oak_crafting_table"
+    ],
+    "pattern": [
+      " AA",
+      " BA",
+      " B "
+    ],
+    "key": {
+      "A": {
+        "item": "holyislands:sacred_cobblestone_block",
+        "data": 0
+      },
+      "B": {
+        "item": "holyislands:sacred_oak_stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "holyislands:sacred_stone_axe",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

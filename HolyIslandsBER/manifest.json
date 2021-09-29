@@ -1,0 +1,30 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "Alpha Test by Megatitanio",
+    "name": "§aHoly islands §bV0.2.27 §eBER",
+    "uuid": "d060b920-4663-429b-9c28-393df2af4d5a",
+    "version": [
+      1,
+      8,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      8,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Alpha Test by Megatitanio",
+      "type": "data",
+      "uuid": "5ee4850c-1a6c-4b6d-9d9f-c8d271172a54",
+      "version": [
+        1,
+        8,
+        0
+      ]
+    }
+  ]
+}

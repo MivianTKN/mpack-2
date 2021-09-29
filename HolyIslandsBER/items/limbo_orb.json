@@ -1,0 +1,20 @@
+{
+   "format_version": "1.16.100",
+ "minecraft:item": {
+   "description": {
+
+     "identifier": "holyislands:limbo_orb"
+   },
+   "components": {
+     "minecraft:max_stack_size": 4,
+     "minecraft:foil": false,
+     "minecraft:stacked_by_data": true,
+     "minecraft:icon":{
+        "texture":"limbo_orb"
+     },
+     "minecraft:display_name":{
+        "value":"§eLimbo orb"
+     }
+   }
+ }
+}

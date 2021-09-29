@@ -1,0 +1,41 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+
+      "identifier": "holyislands:mini_small_storm_summoning_staff"
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:foil": false,
+      "minecraft:hand_equipped": true,
+      "minecraft:icon":{
+         "texture":"mini_small_storm_summoning_staff"
+      },
+      "minecraft:display_name":{
+         "value":"§eMini small storm summoning staff\n§8summons a Mini small storm, it is not like its parents,\nit cannot throw lightning at your enemies\n§eActive Item\n§aSummon Mini small storm ally x1\n§9DMG 4\n§cHP 10"
+      },
+      "minecraft:cooldown":{
+         "category":"mini_small_storm_summoning_staff",
+         "duration": 200
+      },
+      "minecraft:can_destroy_in_creative": false,
+         "minecraft:on_use":{
+            "on_use":{
+               "event":"used"
+            }
+         }
+      },
+      "events":{
+         "used":{
+            "swing":{
+            },
+            "run_command":{
+               "command":[
+                  "function mini_small_storm_summoning_staff"
+               ]
+            }
+         }
+      }
+   }
+}

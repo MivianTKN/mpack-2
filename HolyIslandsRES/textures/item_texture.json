@@ -1,0 +1,178 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "holyislands:black_sun_berry": {
+      "textures": "textures/items/black_sun_berry"
+    },
+    "holyislands:iron_mimic_key": {
+      "textures": "textures/items/iron_mimic_key"
+    },
+    "spawn_mimic_iron_sky_chest_egg": {
+      "textures": "textures/items/mimic_iron_sky_chest_egg"
+    },
+    "spawn_mimic_iron_sky_chest_ally_egg": {
+      "textures": "textures/items/mimic_iron_sky_chest_ally_egg"
+    },
+    "mimic_wood_sword": {
+      "textures": "textures/items/mimic_wood_sword"
+    },
+    "living_iron_mimic": {
+      "textures": "textures/items/living_iron_mimic"
+    },
+    "mimic_iron_sky_chest_summoning_staff": {
+      "textures": "textures/items/mimic_iron_sky_chest_summoning_staff"
+    },
+    "cloud_rune": {
+      "textures": "textures/items/cloud_rune"
+    },
+    "sacred_oak_wood_stick": {
+      "textures": "textures/items/sacred_oak_wood_stick"
+    },
+    "sacred_oak_wood_sword": {
+      "textures": "textures/items/sacred_oak_wood_sword"
+    },
+    "sacred_oak_wood_pickaxe": {
+      "textures": "textures/items/sacred_oak_wood_pickaxe"
+    },
+    "sacred_oak_wood_axe": {
+      "textures": "textures/items/sacred_oak_wood_axe"
+    },
+    "sacred_oak_wood_hoe": {
+      "textures": "textures/items/sacred_oak_wood_hoe"
+    },
+    "sacred_oak_wood_shovel": {
+      "textures": "textures/items/sacred_oak_wood_shovel"
+    },
+    "sacred_oak_stick": {
+      "textures": "textures/items/sacred_oak_stick"
+    },
+    "small_vessel_item": {
+      "textures": "textures/items/small_vessel_item"
+    },
+    "medium_vessel_item": {
+      "textures": "textures/items/medium_vessel_item"
+    },
+    "big_vessel_item": {
+      "textures": "textures/items/big_vessel_item"
+    },
+    "small_royal_vessel_item": {
+      "textures": "textures/items/small_royal_vessel_item"
+    },
+    "medium_royal_vessel_item": {
+      "textures": "textures/items/medium_royal_vessel_item"
+    },
+    "big_royal_vessel_item": {
+      "textures": "textures/items/big_royal_vessel_item"
+    },
+    "black_sun_berry_bush_seeds": {
+      "textures": "textures/items/black_sun_berry_bush_seeds"
+    },
+    "chipped_cloud_rune": {
+      "textures": "textures/items/chipped_cloud_rune"
+    },
+    "sacred_oak_crafting_table_item": {
+      "textures": "textures/items/sacred_oak_crafting_table_item"
+    },
+    "sacred_wood_chair_item": {
+      "textures": "textures/items/sacred_wood_chair_item"
+    },
+    "sacred_wood_table_item": {
+      "textures": "textures/items/sacred_wood_table_item"
+    },
+    "mimic_statue_item": {
+      "textures": "textures/items/mimic_statue_item"
+    },
+    "pedestal_item": {
+      "textures": "textures/items/pedestal_item"
+    },
+    "iron_sky_chest_item": {
+      "textures": "textures/items/iron_sky_chest_item"
+    },
+    "mimic_iron_sky_chest_item": {
+      "textures": "textures/items/mimic_iron_sky_chest_item"
+    },
+    "spawn_living_cloud_egg": {
+      "textures": "textures/items/living_cloud_egg"
+    },
+    "golden_light_wand": {
+      "textures": "textures/items/golden_light_wand"
+    },
+    "spawn_small_storm_egg": {
+      "textures": "textures/items/small_storm_egg"
+    },
+    "spawn_mini_small_storm_ally_egg": {
+      "textures": "textures/items/mini_small_storm_ally_egg"
+    },
+    "gem_of_heaven": {
+      "textures": "textures/items/gem_of_heaven"
+    },
+    "cloud_orb": {
+      "textures": "textures/items/cloud_orb"
+    },
+    "cloud_fragment": {
+      "textures": "textures/items/cloud_fragment"
+    },
+    "cloud_essense": {
+      "textures": "textures/items/cloud_essense"
+    },
+    "cloud_sword": {
+      "textures": "textures/items/cloud_sword"
+    },
+    "ancient_cloud_sword": {
+      "textures": "textures/items/ancient_cloud_sword"
+    },
+    "mini_small_storm_summoning_staff": {
+      "textures": "textures/items/mini_small_storm_summoning_staff"
+    },
+    "dark_orb": {
+      "textures": "textures/items/dark_orb"
+    },
+    "heaven_wand": {
+      "textures": "textures/items/heaven_wand"
+    },
+    "limbo_orb": {
+      "textures": "textures/items/limbo_orb"
+    },
+    "sky_coin": {
+      "textures": "textures/items/sky_coin"
+    },
+    "holyislands:sacred_apple": {
+      "textures": "textures/items/sacred_apple"
+    },
+    "holyislands:cloud_apple": {
+      "textures": "textures/items/cloud_apple"
+    },
+    "holyislands:cloud_beef": {
+      "textures": "textures/items/cloud_beef"
+    },
+    "sacred_stone_pickaxe": {
+      "textures": "textures/items/sacred_stone_pickaxe"
+    },
+    "sacred_stone_axe": {
+      "textures": "textures/items/sacred_stone_axe"
+    },
+    "sacred_stone_hoe": {
+      "textures": "textures/items/sacred_stone_hoe"
+    },
+    "sacred_stone_shovel": {
+      "textures": "textures/items/sacred_stone_shovel"
+    },
+    "sacred_stone_sword": {
+      "textures": "textures/items/sacred_stone_sword"
+    },
+    "cloud_pickaxe": {
+      "textures": "textures/items/cloud_pickaxe"
+    },
+    "cloud_axe": {
+      "textures": "textures/items/cloud_axe"
+    },
+    "cloud_hoe": {
+      "textures": "textures/items/cloud_hoe"
+    },
+    "cloud_shovel": {
+      "textures": "textures/items/cloud_shovel"
+      
+    }
+  }
+}

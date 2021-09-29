@@ -1,0 +1,20 @@
+{
+   "format_version": "1.16.100",
+ "minecraft:item": {
+   "description": {
+
+     "identifier": "holyislands:cloud_essense"
+   },
+   "components": {
+     "minecraft:max_stack_size": 64,
+     "minecraft:foil": false,
+     "minecraft:stacked_by_data": true,
+     "minecraft:icon":{
+        "texture":"cloud_essense"
+     },
+     "minecraft:display_name":{
+        "value":"§eCloud essense\n§8A component full of the magic of the clouds"
+     }
+   }
+ }
+}

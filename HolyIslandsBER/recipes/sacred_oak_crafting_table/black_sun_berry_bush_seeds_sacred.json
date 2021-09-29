@@ -1,0 +1,26 @@
+{
+  "format_version": 1.16,
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "holyislands:black_sun_berry_bush_seeds_sacred"
+    },
+    "tags": [
+      "sacred_oak_crafting_table"
+    ],
+    "pattern": [
+      "A ",
+      "  "
+    ],
+    "key": {
+      "A": {
+        "item": "holyislands:black_sun_berry",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "holyislands:black_sun_berry_bush_seeds",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

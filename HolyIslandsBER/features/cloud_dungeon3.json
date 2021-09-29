@@ -1,0 +1,12 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "minecraft:cloud_dungeon3"
+		},
+		"structure_name": "mystructure:cloud_dungeon3",
+		"adjustment_radius": 10,
+        "facing_direction": "random",
+        "constraints": {}
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "holyislands:mimic_iron_chest_spawn",
+      "register_to_creative_menu": false
+    },
+    "components": {
+      "minecraft:stacked_by_data": true,
+      "minecraft:foil": false
+    }
+  }
+}

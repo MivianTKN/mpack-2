@@ -1,0 +1,16 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "holyislands:small_storm_bullet",
+      "materials": { "default": "zombie" },
+      "textures": {
+        "default": "textures/entity/small_storm_bullet"
+      },
+      "geometry": {
+        "default": "geometry.small_storm_bullet"
+      },
+      "render_controllers": [ "controller.render.default" ]
+    }
+  }
+}

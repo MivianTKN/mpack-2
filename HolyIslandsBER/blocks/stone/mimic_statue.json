@@ -1,0 +1,84 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "holyislands:mimic_statue",
+            "properties": {
+                "holyislands:furniture_face": [ 2, 3, 4, 5 ]
+            }
+        },
+        "components": {
+        "minecraft:loot": "loot_tables/empty.json",
+        "minecraft:on_player_destroyed": {
+          "condition": "query.get_equipped_item_name == 'sacred_oak_wood_pickaxe'",
+          "event": "drop:drop_loot",
+          "target": "self"
+        },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "mimic_statue",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:pick_collision": {
+                "origin": [ -3, 0, -3 ],
+                "size": [ 6, 12, 6 ]
+            },
+            "minecraft:entity_collision": {
+                "origin":  [-3, 0, -3],
+                "size":    [6, 12, 6]
+            },
+            "minecraft:geometry": "geometry.mimic_statue",
+            "minecraft:destroy_time": 3.0,
+            "minecraft:on_player_placing": {
+                "event": "holyislands:place"
+            },
+            "minecraft:friction": 0.6,
+            "minecraft:map_color": "#00ff00",
+            "minecraft:flammable": {
+                "flame_odds": 0,
+                "burn_odds": 0
+            },
+            "minecraft:block_light_emission": 0.0,
+            "minecraft:block_light_absorption": 0.0
+        },
+        "events": {
+            "drop:drop_loot": {
+                "spawn_loot": {
+                    "table": "loot_tables/blocks/mimic_statue.json"
+                }
+            },
+            "holyislands:place": {
+                "set_block_property": {
+                    "holyislands:furniture_face": "(query.cardinal_facing_2d)"
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_property('holyislands:furniture_face') == 2",
+                "components": {
+                    "minecraft:block_light_emission": 0.0
+                }
+            },
+            {
+                "condition": "query.block_property('holyislands:furniture_face') == 3",
+                "components": {
+                    "minecraft:rotation": [ 0, 180, 0 ]
+                }
+            },
+            {
+                "condition": "query.block_property('holyislands:furniture_face') == 4",
+                "components": {
+                    "minecraft:rotation": [ 0, 90, 0 ]
+                }
+            },
+            {
+                "condition": "query.block_property('holyislands:furniture_face') == 5",
+                "components": {
+                    "minecraft:rotation": [ 0, 270, 0 ]
+                }
+            }
+        ]
+    }
+}

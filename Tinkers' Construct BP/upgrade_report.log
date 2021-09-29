@@ -1,0 +1,26 @@
+{
+   "errors" : [
+      {
+         "key" : 6,
+         "parameters" : [ "/header/pack_id" ],
+         "type" : 2
+      }
+   ],
+   "location" : {
+      "fs" : 2,
+      "path" : "C:/Users/pixel/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/development_behavior_packs/Tinkers' Construct BP"
+   },
+   "upgraded" : false,
+   "warnings" : [
+      {
+         "key" : 7,
+         "parameters" : [ "/header/packs_version", "0.0.0" ],
+         "type" : 2
+      },
+      {
+         "key" : 30,
+         "parameters" : [ "/header/min_engine_version", "1.13.0" ],
+         "type" : 2
+      }
+   ]
+}

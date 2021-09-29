@@ -1,0 +1,162 @@
+{
+  "format_version": [ 0, 0, 1 ],
+  "holyislands:sacred_grass_block": {
+    "isotropic": {
+      "up": true,
+      "down": true
+    },
+    "textures": {
+      "up": "sacred_grass_block_top",
+      "down": "sacred_grass_block_bottom",
+      "side": "sacred_grass_block_side"
+    },
+    "sound": "grass"
+  },
+  "holyislands:sacred_dirt_block": {
+    "textures": "sacred_dirt_block",
+    "sound": "gravel"
+  },
+  "holyislands:sacred_stone_block": {
+    "textures": "sacred_stone_block",
+    "sound": "stone"
+  },
+  "holyislands:sacred_cobblestone_block": {
+    "textures": "sacred_cobblestone_block",
+    "sound": "stone"
+  },
+  "holyislands:sacred_tallgrass_1": {
+    "textures": "sacred_tallgrass_1",
+    "sound": "grass"
+  },
+  "holyislands:sacred_apple_block": {
+    "textures": "sacred_apple_block",
+    "sound": "grass"
+  },
+  "holyislands:sacred_tallgrass_2": {
+    "textures": "sacred_tallgrass_2",
+    "sound": "grass"
+  },
+  "holyislands:sacred_tallgrass_3": {
+    "textures": "sacred_tallgrass_3",
+    "sound": "grass"
+  },
+  "holyislands:sacred_oak_log_block": {
+    "isotropic": {
+      "up": true,
+      "down": true
+    },
+    "textures": {
+      "up": "sacred_oak_log_block_top",
+      "down": "sacred_oak_log_block_top",
+      "side": "sacred_oak_log_block_side"
+    },
+    "sound": "wood"
+  },
+  "holyislands:sacred_oak_leaves_block": {
+    "textures": "sacred_oak_leaves_block",
+    "sound": "grass"
+  },
+  "holyislands:sacred_oak_wood_planks_block": {
+    "textures": "sacred_oak_wood_planks_block",
+    "sound": "wood"
+  },
+  "holyislands:black_sun_berry_bush_1": {
+    "textures": "black_sun_berry_bush_1",
+    "sound": "grass"
+  },
+  "holyislands:black_sun_berry_bush_2": {
+    "textures": "black_sun_berry_bush_2",
+    "sound": "grass"
+  },
+  "holyislands:black_sun_berry_bush_grow": {
+    "textures": "black_sun_berry_bush_grow",
+    "sound": "grass"
+  },
+  "holyislands:pedestal": {
+    "textures": "pedestal",
+    "sound": "stone"
+  },
+  "holyislands:sacred_stonebrick_block": {
+    "textures": "sacred_stonebrick_block",
+    "sound": "stone"
+  },
+  "holyislands:sacred_stonebrick_cracked_block": {
+    "textures": "sacred_stonebrick_cracked_block",
+    "sound": "stone"
+  },
+  "holyislands:sacred_stonebrick_carved_block": {
+    "textures": "sacred_stonebrick_carved_block",
+    "sound": "stone"
+  },
+  "holyislands:mimic_statue": {
+    "textures": "mimic_statue",
+    "sound": "stone"
+  },
+  "holyislands:sacred_wood_chair": {
+    "textures": "sacred_wood_chair",
+    "sound": "wood"
+  },
+  "holyislands:sacred_wood_table": {
+    "textures": "sacred_wood_table",
+    "sound": "wood"
+  },
+  "holyislands:small_vessel": {
+    "textures": "small_vessel",
+    "sound": "stone"
+  },
+  "holyislands:medium_vessel": {
+    "textures": "medium_vessel",
+    "sound": "stone"
+  },
+  "holyislands:big_vessel": {
+    "textures": "big_vessel",
+    "sound": "stone"
+  },
+  "holyislands:sacred_oak_crafting_table": {
+    "textures": "sacred_oak_crafting_table",
+    "sound": "wood"
+  },
+  "holyislands:small_royal_vessel": {
+    "textures": "small_royal_vessel",
+    "sound": "stone"
+  },
+  "holyislands:medium_royal_vessel": {
+    "textures": "medium_royal_vessel",
+    "sound": "stone"
+  },
+  "holyislands:big_royal_vessel": {
+    "textures": "big_royal_vessel",
+    "sound": "stone"
+  },
+  "holyislands:cloud_block": {
+    "textures": "cloud_block",
+    "sound": "stone"
+  },
+    "holyislands:cloud_block_chiseled": {
+      "isotropic": {
+        "up": true,
+        "down": true
+      },
+      "textures": {
+        "up": "cloud_block_chiseled_top",
+        "down": "cloud_block_chiseled_bottom",
+        "side": "cloud_block_chiseled_side"
+      },
+      "sound": "stone"
+    },
+    "holyislands:cloud_bricks": {
+      "textures": "cloud_bricks",
+      "sound": "stone"
+    },
+    "holyislands:cloud_block_lines": {
+      "isotropic": {
+        "up": true,
+        "down": true
+      },
+      "textures": {
+        "up": "cloud_block_lines_top",
+        "down": "cloud_block_lines_bottom",
+        "side": "cloud_block_lines_side"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+    "format_version":"1.16.100",
+    "minecraft:item":{
+       "description":{
+          "category":"equipment",
+          "identifier":"holyislands:sacred_oak_wood_sword"
+       },
+       "components":{
+          "minecraft:creative_category":{
+             "parent":"itemGroup.name.sword"
+          },
+          "minecraft:max_stack_size":1,
+          "minecraft:use_duration":2,
+          "minecraft:hand_equipped":true,
+          "minecraft:durability":{
+             "max_durability": 120
+          },
+          "minecraft:damage": 4,
+          "minecraft:enchantable":{
+             "value":8,
+             "slot":"sword"
+          },
+          "minecraft:icon":{
+             "texture":"sacred_oak_wood_sword"
+          },
+          "minecraft:display_name":{
+             "value":"Sacred oak wood sword"
+          },
+          "minecraft:weapon":{
+          },
+          "minecraft:can_destroy_in_creative":false,
+          "minecraft:digger":{
+             "use_efficiency":true,
+             "destroy_speeds":[
+                {
+                   "block":"minecraft:web",
+                   "speed": 2
+                },
+                {
+                   "block":"minecraft:bamboo",
+                   "speed": 2
+                }
+             ]
+          }
+       }
+    }
+ }

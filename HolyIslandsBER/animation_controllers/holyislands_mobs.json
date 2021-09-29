@@ -1,0 +1,77 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+      "controller.animation.ally": {
+        "states": {
+          "default": {
+            "transitions": [ { "walking": "(1.0)" } ],
+            "on_entry": [ "/function ally" ]
+          },
+          "walking": {
+            "transitions": [ { "default": "(1.0)" } ],
+            "on_entry": [ "/function ally" ]
+            }
+         }
+      },
+      "controller.animation.living_cloud": {
+        "states": {
+          "default": {
+            "transitions": [ { "walking": "(1.0)" } ],
+            "on_entry": [ "/function living_cloud" ]
+          },
+          "walking": {
+            "transitions": [ { "default": "(1.0)" } ],
+            "on_entry": [ "/function living_cloud" ]
+          }
+        }
+     },
+     "controller.animation.small_storm": {
+       "states": {
+         "default": {
+           "transitions": [ { "walking": "(1.0)" } ],
+           "on_entry": [ "/function small_storm" ]
+         },
+         "walking": {
+           "transitions": [ { "default": "(1.0)" } ],
+           "on_entry": [ "/function small_storm" ]
+           }
+        }
+     },
+     "controller.animation.small_storm_bullet": {
+       "states": {
+         "default": {
+           "transitions": [ { "walking": "(1.0)" } ],
+           "on_entry": [ "/function small_storm_bullet" ]
+         },
+         "walking": {
+           "transitions": [ { "default": "(1.0)" } ],
+           "on_entry": [ "/function small_storm_bullet" ]
+          }
+        }
+     },
+     "controller.animation.mini_small_storm_bullet": {
+       "states": {
+         "default": {
+           "transitions": [ { "walking": "(1.0)" } ],
+           "on_entry": [ "/function mini_small_storm_bullet" ]
+         },
+         "walking": {
+           "transitions": [ { "default": "(1.0)" } ],
+           "on_entry": [ "/function mini_small_storm_bullet" ]
+          }
+        }
+     },
+     "controller.animation.heaven_wand_bullet": {
+       "states": {
+         "default": {
+           "transitions": [ { "walking": "(1.0)" } ],
+           "on_entry": [ "/function heaven_wand_bullet" ]
+         },
+         "walking": {
+           "transitions": [ { "default": "(1.0)" } ],
+           "on_entry": [ "/function heaven_wand_bullet" ]
+          }
+        }
+      }
+   }
+}

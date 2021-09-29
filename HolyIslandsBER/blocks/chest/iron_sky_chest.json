@@ -1,0 +1,30 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "holyislands:iron_sky_chest",
+            "register_to_creative_menu": true
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "iron_sky_chest",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:pick_collision": {
+                "origin":  [-3, 0, -3],
+                "size":    [6, 6, 6]
+            },
+            "minecraft:entity_collision": {
+                "origin":  [-3, 0, -3],
+                "size":    [6, 6, 6]
+            },
+            "minecraft:loot": "loot_tables/blocks/iron_sky_chest.json",
+            "minecraft:geometry": "geometry.sky_chest",
+            "minecraft:destroy_time": 20000,
+            "minecraft:block_light_emission": 0.0,
+            "minecraft:block_light_absorption": 0.0
+        }
+    }
+}

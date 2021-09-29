@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "holyislands:small_storm",
+      "materials": { "default": "zombie" },
+      "textures": {
+        "default": "textures/entity/small_storm"
+      },
+      "geometry": {
+        "default": "geometry.small_storm"
+      },
+      "render_controllers": [ "controller.render.holyislands" ],
+      "spawn_egg": {
+        "texture": "spawn_small_storm_egg",
+        "texture_index": 0
+      }
+    }
+  }
+}

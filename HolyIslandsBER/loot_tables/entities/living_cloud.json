@@ -1,0 +1,27 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1000,
+                    "name": "holyislands:cloud_orb"
+                },
+                {
+                    "type": "item",
+                    "weight": 250,
+                    "name": "holyislands:cloud_fragment"
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "holyislands:ancient_cloud_sword"
+                }
+            ]
+        }
+    ]
+}

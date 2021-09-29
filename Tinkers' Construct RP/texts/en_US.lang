@@ -1,0 +1,120 @@
+##bridge-file-version: #86
+pack.name=Tinkers' Construct RP
+pack.description=A Java Mod Recreation by Stratospheer!
+
+## Workstations
+tile.strat:crafting_station.name=Crafting Station
+tile.strat:stencil_table_oak.name=Stencil Table (Oak)
+tile.strat:stencil_table_spruce.name=Stencil Table (Spruce)
+tile.strat:stencil_table_birch.name=Stencil Table (Birch)
+tile.strat:stencil_table_jungle.name=Stencil Table (Jungle)
+tile.strat:stencil_table_acacia.name=Stencil Table (Acacia)
+tile.strat:stencil_table_dark_oak.name=Stencil Table (Dark Oak)
+tile.strat:stencil_table_maple.name=Stencil Table (Maple)
+tile.strat:stencil_table_lavawood.name=Stencil Table (Lavawood)
+tile.strat:part_builder_oak.name=Part Builder (Oak)
+tile.strat:part_builder_spruce.name=Part Builder (Spruce)
+tile.strat:part_builder_birch.name=Part Builder (Birch)
+tile.strat:part_builder_jungle.name=Part Builder (Jungle)
+tile.strat:part_builder_acacia.name=Part Builder (Acacia)
+tile.strat:part_builder_dark_oak.name=Part Builder (Dark Oak)
+tile.strat:part_builder_maple.name=Part Builder (Maple)
+tile.strat:part_builder_firewood.name=Part Builder (Firewood)
+tile.strat:tool_station.name=Tool Station
+tile.strat:tool_forge.name=Tool Forge (Iron)
+tile.strat:tool_forge_ardite.name=Tool Forge (Ardite)
+tile.strat:tool_forge_cobalt.name=Tool Forge (Cobalt)
+tile.strat:tool_forge_manyullyn.name=Tool Forge (Manyullyn)
+tile.strat:tool_forge_gold.name=Tool Forge (Gold)
+tile.strat:tool_forge_copper.name=Tool Forge (Copper)
+
+## Smeltery
+tile.strat:grout.name=Grout
+tile.strat:seared_cobblestone.name=Seared Cobblestone
+tile.strat:seared_stone.name=Seared Stone
+tile.strat:seared_bricks.name=Seared Bricks
+tile.strat:cracked_seared_bricks.name=Cracked Seared Bricks
+tile.strat:fancy_seared_bricks.name=Fancy Seared Bricks
+tile.strat:square_seared_bricks.name=Square Seared Bricks
+tile.strat:triangle_seared_bricks.name=Triangle Seared Bricks
+tile.strat:seared_creeperface.name=Seared Creeperface
+tile.strat:small_seared_bricks.name=Small Seared Bricks
+tile.strat:seared_tiles.name=Seared Tiles
+tile.strat:seared_road.name=Seared Road
+tile.strat:seared_paver.name=Seared Paver
+
+tile.strat:casting_table.name=Casting Table
+
+tile.strat:smeltery_controller.name=Smeltery Controller
+tile.strat:smeltery_controller_0.name=Smeltery Controller (0)
+tile.strat:smeltery_controller_90.name=Smeltery Controller (90)
+tile.strat:smeltery_controller_180.name=Smeltery Controller (180)
+tile.strat:smeltery_controller_270.name=Smeltery Controller (270)
+
+tile.strat:casting_basin.name=Casting Basin
+tile.strat:casting_basin_ardite.name=Casting Basin
+tile.strat:casting_basin_manyullyn.name=Casting Basin
+tile.strat:casting_basin_seared_stone.name=Casting Basin
+
+## Ore
+tile.strat:ardite_ore.name=Ardite Ore
+tile.strat:cobalt_ore.name=Cobalt Ore
+
+## Ore Blocks
+tile.strat:ardite_block.name=Block of Ardite
+tile.strat:cobalt_block.name=Block of Cobalt
+tile.strat:manyullyn_block.name=Block of Manyullyn
+
+## Seared Tank
+tile.strat:seared_tank.name=Seared Tank (0/100)
+tile.strat:seared_tank_lava_1.name=Seared Tank (20/100)
+tile.strat:seared_tank_lava_2.name=Seared Tank (40/100)
+tile.strat:seared_tank_lava_3.name=Seared Tank (60/100)
+tile.strat:seared_tank_lava_4.name=Seared Tank (80/100)
+tile.strat:seared_tank_lava_5.name=Seared Tank (100/100)
+tile.strat:seared_tank_iron_1.name=Seared Tank (20/100)
+tile.strat:seared_tank_iron_2.name=Seared Tank (40/100)
+tile.strat:seared_tank_iron_3.name=Seared Tank (60/100)
+tile.strat:seared_tank_iron_4.name=Seared Tank (80/100)
+tile.strat:seared_tank_iron_5.name=Seared Tank (100/100)
+tile.strat:seared_tank_gold_1.name=Seared Tank (20/100)
+tile.strat:seared_tank_gold_2.name=Seared Tank (40/100)
+tile.strat:seared_tank_gold_3.name=Seared Tank (60/100)
+tile.strat:seared_tank_gold_4.name=Seared Tank (80/100)
+tile.strat:seared_tank_gold_5.name=Seared Tank (100/100)
+tile.strat:seared_tank_copper_1.name=Seared Tank (20/100)
+tile.strat:seared_tank_copper_2.name=Seared Tank (40/100)
+tile.strat:seared_tank_copper_3.name=Seared Tank (60/100)
+tile.strat:seared_tank_copper_4.name=Seared Tank (80/100)
+tile.strat:seared_tank_copper_5.name=Seared Tank (100/100)
+tile.strat:seared_tank_cobalt_1.name=Seared Tank (20/100)
+tile.strat:seared_tank_cobalt_2.name=Seared Tank (40/100)
+tile.strat:seared_tank_cobalt_3.name=Seared Tank (60/100)
+tile.strat:seared_tank_cobalt_4.name=Seared Tank (80/100)
+tile.strat:seared_tank_cobalt_5.name=Seared Tank (100/100)
+tile.strat:seared_tank_ardite_1.name=Seared Tank (20/100)
+tile.strat:seared_tank_ardite_2.name=Seared Tank (40/100)
+tile.strat:seared_tank_ardite_3.name=Seared Tank (60/100)
+tile.strat:seared_tank_ardite_4.name=Seared Tank (80/100)
+tile.strat:seared_tank_ardite_5.name=Seared Tank (100/100)
+tile.strat:seared_tank_manyullyn_1.name=Seared Tank (20/100)
+tile.strat:seared_tank_manyullyn_2.name=Seared Tank (40/100)
+tile.strat:seared_tank_manyullyn_3.name=Seared Tank (60/100)
+tile.strat:seared_tank_manyullyn_4.name=Seared Tank (80/100)
+tile.strat:seared_tank_manyullyn_5.name=Seared Tank (100/100)
+tile.strat:seared_tank_seared_stone_1.name=Seared Tank (20/100)
+tile.strat:seared_tank_seared_stone_2.name=Seared Tank (40/100)
+tile.strat:seared_tank_seared_stone_3.name=Seared Tank (60/100)
+tile.strat:seared_tank_seared_stone_4.name=Seared Tank (80/100)
+tile.strat:seared_tank_seared_stone_5.name=Seared Tank (100/100)
+
+## Misc
+tile.strat:drying_rack.name=Drying Rack
+tile.strat:stone_torch.name=Stone Torch
+tile.strat:mud_bricks.name=Mud Bricks
+tile.strat:dried_bricks.name=Dried Bricks
+tile.strat:dried_clay.name=Dried Clay
+
+## Wood
+tile.strat:lavawood.name=Lavawood
+tile.strat:firewood.name=Firewood

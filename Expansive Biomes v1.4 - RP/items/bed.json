@@ -1,0 +1,12 @@
+//bridge-file-version: #0
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "minecraft:bed"
+		},
+		"components": {
+			"minecraft:use_animation": "eat"
+		}
+	}
+}

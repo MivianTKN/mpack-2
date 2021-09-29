@@ -1,0 +1,26 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "holyislands:living_cloud",
+      "materials": { "default": "zombie" },
+      "textures": {
+        "default": "textures/entity/living_cloud"
+      },
+      "geometry": {
+        "default": "geometry.living_cloud"
+      },
+      "animation_controllers": [
+        { "main": "controller.animation.living_cloud.main" }
+      ],
+      "animations": {
+        "main": "animation.living_cloud.main"
+      },
+      "render_controllers": [ "controller.render.holyislands" ],
+      "spawn_egg": {
+        "texture": "spawn_living_cloud_egg",
+        "texture_index": 0
+      }
+    }
+  }
+}

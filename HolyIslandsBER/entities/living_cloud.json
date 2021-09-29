@@ -1,0 +1,109 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "holyislands:living_cloud",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "scripts": {
+        "animate": [ "walking" ]
+      },
+      "animations": {
+        "walking": "controller.animation.living_cloud"
+      }
+    },
+    "components": {
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? 8 : 0"
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:knockback_resistance": {
+        "value": 0.2
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/living_cloud.json"
+      },
+      "minecraft:type_family": {
+        "family": [ "monster", "mob" ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.2,
+        "height": 0.5
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 3,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of" : [
+                {"test" : "is_family", "subject" : "other", "value" :  "player"},
+                {"test" : "is_family", "subject" : "other", "value" :  "irongolem"},
+                {"test" : "is_family", "subject" : "other", "value" :  "wandering_trader"}
+              ]
+            },
+            "max_dist": 40
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_family", "subject": "other", "value": "villager" },
+                { "test": "has_component", "subject": "other", "operator": "!=", "value": "minecraft:is_baby" }
+              ]
+            },
+            "max_dist": 40
+          }
+        ],
+        "must_see": true
+      },
+      "minecraft:movement": {
+        "value": 0.30
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true
+      },
+      "minecraft:movement.basic": {
+        
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:health": {
+        "value": 20,
+        "max": 20
+      },
+      "minecraft:attack": {
+        "damage": 4
+      },
+      "minecraft:scale": {
+      "value": 2.0
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+
+      "minecraft:behavior.melee_attack": {
+        "priority": 3,
+        "speed_multiplier": 1,
+        "track_target": true
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 1
+      },
+	    "minecraft:physics": {
+      }
+    }
+  }
+}
+

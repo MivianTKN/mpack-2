@@ -1,0 +1,30 @@
+//bridge-file-version: #4
+{
+	"format_version": 2,
+	"header": {
+		"name": "Tinkers' Construct",
+		"description": "A Java Mod Recreation by Stratospheer!",
+		"uuid": "ba2e5488-8ca0-4094-91da-a4180ba98946",
+		"version": [
+			1,
+			0,
+			2
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "db071df7-6905-4f17-9a67-966d565e13d3",
+			"version": [
+				1,
+				0,
+				2
+			]
+		}
+	]
+}

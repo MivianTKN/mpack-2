@@ -1,0 +1,22 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 0,
+                "max": 2
+            },
+            "entries": [
+                {      
+                    "type": "item",
+                    "weight": 1,
+                    "name": "holyislands:sacred_oak_log_block"
+                    },
+                    {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "holyislands:black_sun_berry_bush_seeds"
+                }
+            ]
+        }
+    ]
+}

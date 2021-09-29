@@ -1,0 +1,844 @@
+//bridge-file-version: #132
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"bridge_crafting station": {
+			"textures": [
+				"textures/blocks/crafting station"
+			]
+		},
+		"bridge_part builder oak": {
+			"textures": [
+				"textures/blocks/part builder"
+			]
+		},
+		"bridge_stencil table oak": {
+			"textures": [
+				"textures/blocks/stencil table"
+			]
+		},
+		"bridge_tool station": {
+			"textures": [
+				"textures/blocks/tool station"
+			]
+		},
+		"strat_tool forge": {
+			"textures": [
+				"textures/blocks/tool_forge"
+			]
+		},
+		"strat_drying rack": {
+			"textures": [
+				"textures/blocks/rack"
+			]
+		},
+		"strat_drying rack 1": {
+			"textures": [
+				"textures/blocks/rack_flesh"
+			]
+		},
+		"strat_drying rack 2": {
+			"textures": [
+				"textures/blocks/rack_leather"
+			]
+		},
+		"strat_grout": {
+			"textures": [
+				"textures/blocks/grout"
+			]
+		},
+		"strat_seared bricks": {
+			"textures": [
+				"textures/blocks/seared_bricks"
+			]
+		},
+		"strat_casting table": {
+			"textures": [
+				"textures/blocks/casting_table"
+			]
+		},
+		"strat_seared tank": {
+			"textures": [
+				"textures/blocks/seared_tank"
+			]
+		},
+		"strat_seared tank lava 1": {
+			"textures": [
+				"textures/blocks/seared_tank_lava_1 "
+			]
+		},
+		"strat_seared tank lava 2": {
+			"textures": [
+				"textures/blocks/seared_tank_lava_2"
+			]
+		},
+		"strat_seared tank lava 3": {
+			"textures": [
+				"textures/blocks/seared_tank_lava_3"
+			]
+		},
+		"strat_seared tank lava 4": {
+			"textures": [
+				"textures/blocks/seared_tank_lava_4"
+			]
+		},
+		"strat_seared tank lava 5": {
+			"textures": [
+				"textures/blocks/seared_tank_lava_5"
+			]
+		},
+		"strat_smelter": {
+			"textures": [
+				"textures/blocks/smelter"
+			]
+		},
+		"strat_smelter lava 1": {
+			"textures": [
+				"textures/blocks/smelter lava 1"
+			]
+		},
+		"strat_smelter iron 1": {
+			"textures": [
+				"textures/blocks/smelter iron 1"
+			]
+		},
+		"strat_smelter gold 1": {
+			"textures": [
+				"textures/blocks/smelter gold 1"
+			]
+		},
+		"strat_smelter 1": {
+			"textures": [
+				"textures/blocks/smelter 1"
+			]
+		},
+		"strat_smelter iron ingot": {
+			"textures": [
+				"textures/blocks/smelter iron ingot"
+			]
+		},
+		"strat_smelter gold ingot": {
+			"textures": [
+				"textures/blocks/smelter gold ingot"
+			]
+		},
+		"strat_casting basin": {
+			"textures": [
+				"textures/blocks/casting_basin"
+			]
+		},
+		"strat_casting basin 1": {
+			"textures": [
+				"textures/blocks/casting_basin_iron_block"
+			]
+		},
+		"strat_copper ore": {
+			"textures": [
+				"textures/blocks/copper_ore"
+			]
+		},
+		"strat_copper block": {
+			"textures": [
+				"textures/blocks/copper_block"
+			]
+		},
+		"strat_smelter copper 1": {
+			"textures": [
+				"textures/blocks/smelter copper 1"
+			]
+		},
+		"strat_smelter copper ingot": {
+			"textures": [
+				"textures/blocks/smelter copper ingot"
+			]
+		},
+		"strat_smelter iron 2": {
+			"textures": [
+				"textures/blocks/smelter iron 2"
+			]
+		},
+		"strat_smelter gold 2": {
+			"textures": [
+				"textures/blocks/smelter gold 2"
+			]
+		},
+		"strat_smelter copper 2": {
+			"textures": [
+				"textures/blocks/smelter copper 2"
+			]
+		},
+		"strat_smelter iron ore": {
+			"textures": [
+				"textures/blocks/smelter iron ore 1"
+			]
+		},
+		"strat_smelter gold ore": {
+			"textures": [
+				"textures/blocks/smelter gold ore 1"
+			]
+		},
+		"strat_smelter copper ore": {
+			"textures": [
+				"textures/blocks/smelter copper ore 1"
+			]
+		},
+		"strat_smelter blank cast": {
+			"textures": [
+				"textures/blocks/smelter blank cast"
+			]
+		},
+		"strat_cobalt ore": {
+			"textures": [
+				"textures/blocks/cobalt_ore"
+			]
+		},
+		"strat_ardite ore": {
+			"textures": [
+				"textures/blocks/ardite_ore"
+			]
+		},
+		"cobalt_block": {
+			"textures": [
+				"textures/blocks/cobalt_block"
+			]
+		},
+		"ardite_block": {
+			"textures": [
+				"textures/blocks/ardite_block"
+			]
+		},
+		"manyullyn_block": {
+			"textures": [
+				"textures/blocks/manyullyn_block"
+			]
+		},
+		"strat_smelter cobalt 1": {
+			"textures": [
+				"textures/blocks/smelter cobalt 1"
+			]
+		},
+		"strat_smelter cobalt ore": {
+			"textures": [
+				"textures/blocks/smelter cobalt ore 1"
+			]
+		},
+		"strat_smelter cobalt ingot": {
+			"textures": [
+				"textures/blocks/smelter cobalt ingot"
+			]
+		},
+		"strat_smelter ardite 1": {
+			"textures": [
+				"textures/blocks/smelter ardite 1"
+			]
+		},
+		"strat_smelter ardite ore": {
+			"textures": [
+				"textures/blocks/smelter ardite ore 1"
+			]
+		},
+		"strat_smelter ardite ingot": {
+			"textures": [
+				"textures/blocks/smelter ardite ingot"
+			]
+		},
+		"strat_smelter cobalt 2": {
+			"textures": [
+				"textures/blocks/smelter cobalt 2"
+			]
+		},
+		"strat_smelter ardite 2": {
+			"textures": [
+				"textures/blocks/smelter ardite 2"
+			]
+		},
+		"strat_smelter manyullyn ingot": {
+			"textures": [
+				"textures/blocks/smelter manyullyn ingot"
+			]
+		},
+		"strat_smelter manyullyn 1": {
+			"textures": [
+				"textures/blocks/smelter manyullyn 1"
+			]
+		},
+		"smelter_ardite_cobalt_1": {
+			"textures": [
+				"textures/blocks/smelter ardite cobalt ingot 1"
+			]
+		},
+		"smelter_ardite_cobalt_2": {
+			"textures": [
+				"textures/blocks/smelter ardite cobalt ingot 2"
+			]
+		},
+		"smelter_ardite_cobalt_ore_1": {
+			"textures": [
+				"textures/blocks/smelter ardite cobalt ore 1"
+			]
+		},
+		"smelter_ardite_cobalt_ore_2": {
+			"textures": [
+				"textures/blocks/smelter ardite cobalt ore 2"
+			]
+		},
+		"smelter_manyullyn 2": {
+			"textures": [
+				"textures/blocks/smelter manyullyn 2"
+			]
+		},
+		"seared_tank_iron": {
+			"textures": [
+				"textures/blocks/seared_tank_iron"
+			]
+		},
+		"seared_tank_gold": {
+			"textures": [
+				"textures/blocks/seared_tank_gold"
+			]
+		},
+		"seared_tank_copper": {
+			"textures": [
+				"textures/blocks/seared_tank_copper"
+			]
+		},
+		"seared_tank_cobalt": {
+			"textures": [
+				"textures/blocks/seared_tank_cobalt"
+			]
+		},
+		"seared_tank_ardite": {
+			"textures": [
+				"textures/blocks/seared_tank_ardite"
+			]
+		},
+		"seared_tank_manyullyn": {
+			"textures": [
+				"textures/blocks/seared_tank_manyullyn"
+			]
+		},
+		"casting_basin_molten_iron": {
+			"textures": [
+				"textures/blocks/casting_basin_molten_iron"
+			]
+		},
+		"casting_basin_gold_block": {
+			"textures": [
+				"textures/blocks/casting_basin_gold_block"
+			]
+		},
+		"casting_basin_molten_gold": {
+			"textures": [
+				"textures/blocks/casting_basin_molten_gold"
+			]
+		},
+		"tool_forge_ardite": {
+			"textures": [
+				"textures/blocks/tool_forge_ardite"
+			]
+		},
+		"tool_forge_cobalt": {
+			"textures": [
+				"textures/blocks/tool_forge_cobalt"
+			]
+		},
+		"tool_forge_manyullyn": {
+			"textures": [
+				"textures/blocks/tool_forge_manyullyn"
+			]
+		},
+		"tool_forge_gold": {
+			"textures": [
+				"textures/blocks/tool_forge_gold"
+			]
+		},
+		"smelter_iron_ingot_2": {
+			"textures": [
+				"textures/blocks/smelter iron ingot 2"
+			]
+		},
+		"smelter_gold_ingot_2": {
+			"textures": [
+				"textures/blocks/smelter gold ingot 2"
+			]
+		},
+		"smelter_copper_ingot_2": {
+			"textures": [
+				"textures/blocks/smelter copper ingot 2"
+			]
+		},
+		"smelter_iron_3": {
+			"textures": [
+				"textures/blocks/smelter iron 3"
+			]
+		},
+		"smelter_cobalt_ingot_2": {
+			"textures": [
+				"textures/blocks/smelter cobalt ingot 2"
+			]
+		},
+		"smelter_ardite_ingot_2": {
+			"textures": [
+				"textures/blocks/smelter ardite ingot 2"
+			]
+		},
+		"smelter_manyullyn_ingot_2": {
+			"textures": [
+				"textures/blocks/smelter manyullyn ingot 2"
+			]
+		},
+		"seared_tank_seared_stone": {
+			"textures": [
+				"textures/blocks/seared_tank_seared_stone"
+			]
+		},
+		"smelter_cobble_1": {
+			"textures": [
+				"textures/blocks/smelter cobble 1"
+			]
+		},
+		"smelter_stone_1": {
+			"textures": [
+				"textures/blocks/smelter stone 1"
+			]
+		},
+		"smelter_seared_stone_1": {
+			"textures": [
+				"textures/blocks/smelter seared stone 1"
+			]
+		},
+		"smelter_raw_iron": {
+			"textures": [
+				"textures/blocks/smelter_raw_iron"
+			]
+		},
+		"smelter_raw_gold": {
+			"textures": [
+				"textures/blocks/smelter_raw_gold"
+			]
+		},
+		"smelter_raw_copper": {
+			"textures": [
+				"textures/blocks/smelter_raw_copper"
+			]
+		},
+		"casting_basin_molten_copper": {
+			"textures": [
+				"textures/blocks/casting_basin_molten_copper"
+			]
+		},
+		"casting_basin_copper_block": {
+			"textures": [
+				"textures/blocks/casting_basin_copper_block"
+			]
+		},
+		"tool_forge_copper": {
+			"textures": [
+				"textures/blocks/tool_forge_copper"
+			]
+		},
+		"cracked_seared_bricks": {
+			"textures": [
+				"textures/blocks/cracked_seared_brick"
+			]
+		},
+		"fancy_seared_bricks": {
+			"textures": [
+				"textures/blocks/fancy_seared_bricks"
+			]
+		},
+		"square_seared_bricks": {
+			"textures": [
+				"textures/blocks/square_seared_brick"
+			]
+		},
+		"triangle_seared_bricks": {
+			"textures": [
+				"textures/blocks/triangle_seared_brick"
+			]
+		},
+		"seared_creeperface": {
+			"textures": [
+				"textures/blocks/seared_creeperface"
+			]
+		},
+		"small_seared_bricks": {
+			"textures": [
+				"textures/blocks/small_seared_brick"
+			]
+		},
+		"seared_tiles": {
+			"textures": [
+				"textures/blocks/seared_tile"
+			]
+		},
+		"seared_road": {
+			"textures": [
+				"textures/blocks/seared_road"
+			]
+		},
+		"seared_paver": {
+			"textures": [
+				"textures/blocks/seared_paver"
+			]
+		},
+		"seared_stone": {
+			"textures": [
+				"textures/blocks/seared_stone"
+			]
+		},
+		"seared_cobblestone": {
+			"textures": [
+				"textures/blocks/seared_cobblestone"
+			]
+		},
+		"casting_basin_molten_cobalt": {
+			"textures": [
+				"textures/blocks/casting_basin_molten_cobalt"
+			]
+		},
+		"casting_basin_cobalt_block": {
+			"textures": [
+				"textures/blocks/casting_basin_cobalt_block"
+			]
+		},
+		"casting_basin_molten_ardite": {
+			"textures": [
+				"textures/blocks/casting_basin_molten_ardite"
+			]
+		},
+		"casting_basin_ardite_block": {
+			"textures": [
+				"textures/blocks/casting_basin_ardite_block"
+			]
+		},
+		"casting_basin_molten_manyullyn": {
+			"textures": [
+				"textures/blocks/casting_basin_molten_manyullyn"
+			]
+		},
+		"casting_basin_manyullyn_block": {
+			"textures": [
+				"textures/blocks/casting_basin_manyullyn_block"
+			]
+		},
+		"casting_basin_molten_seared_stone": {
+			"textures": [
+				"textures/blocks/casting_basin_molten_seared_stone"
+			]
+		},
+		"casting_basin_seared_stone": {
+			"textures": [
+				"textures/blocks/casting_basin_seared_stone"
+			]
+		},
+		"casting_basin_cobblestone": {
+			"textures": [
+				"textures/blocks/casting_basin_cobblestone"
+			]
+		},
+		"casting_basin_seared_cobblestone": {
+			"textures": [
+				"textures/blocks/casting_basin_seared_cobblestone"
+			]
+		},
+		"tool_forge_copper_exposed": {
+			"textures": [
+				"textures/blocks/tool_forge_copper_exposed"
+			]
+		},
+		"tool_forge_copper_weathered": {
+			"textures": [
+				"textures/blocks/tool_forge_copper_weathered"
+			]
+		},
+		"tool_forge_copper_oxidized": {
+			"textures": [
+				"textures/blocks/tool_forge_copper_oxidized"
+			]
+		},
+		"congealed_green_slime": {
+			"textures": [
+				"textures/blocks/slimeblock_green"
+			]
+		},
+		"rack_monster_jerky": {
+			"textures": [
+				"textures/blocks/rack_monster_jerky"
+			]
+		},
+		"rack_raw_beef": {
+			"textures": [
+				"textures/blocks/rack_beef"
+			]
+		},
+		"rack_beef_jerky": {
+			"textures": [
+				"textures/blocks/rack_beef_jerky"
+			]
+		},
+		"rack_raw_porkchop": {
+			"textures": [
+				"textures/blocks/rack_pork"
+			]
+		},
+		"rack_bacon_jerky": {
+			"textures": [
+				"textures/blocks/rack_bacon_jerky"
+			]
+		},
+		"rack_raw_chicken": {
+			"textures": [
+				"textures/blocks/rack_chicken"
+			]
+		},
+		"rack_chicken_jerky": {
+			"textures": [
+				"textures/blocks/rack_chicken_jerky"
+			]
+		},
+		"rack_raw_mutton": {
+			"textures": [
+				"textures/blocks/rack_mutton"
+			]
+		},
+		"rack_mutton_jerky": {
+			"textures": [
+				"textures/blocks/rack_mutton_jerky"
+			]
+		},
+		"stone_torch": {
+			"textures": [
+				"textures/blocks/stone_torch"
+			]
+		},
+		"stone_ladder": {
+			"textures": [
+				"textures/blocks/stone_ladder"
+			]
+		},
+		"smeltery_controller_placeholder": {
+			"textures": [
+				"textures/blocks/smeltery_controller_placeholder"
+			]
+		},
+		"stencil_table_spruce": {
+			"textures": [
+				"textures/blocks/stencil_table_spruce"
+			]
+		},
+		"stencil_table_birch": {
+			"textures": [
+				"textures/blocks/stencil_table_birch"
+			]
+		},
+		"stencil_table_jungle": {
+			"textures": [
+				"textures/blocks/stencil_table_jungle"
+			]
+		},
+		"stencil_table_acacia": {
+			"textures": [
+				"textures/blocks/stencil_table_acacia"
+			]
+		},
+		"stencil_table_dark_oak": {
+			"textures": [
+				"textures/blocks/stencil_table_dark_oak"
+			]
+		},
+		"stencil_table_maple": {
+			"textures": [
+				"textures/blocks/stencil_table_maple"
+			]
+		},
+		"part_builder_spruce": {
+			"textures": [
+				"textures/blocks/part_builder_spruce"
+			]
+		},
+		"part_builder_birch": {
+			"textures": [
+				"textures/blocks/part_builder_birch"
+			]
+		},
+		"part_builder_jungle": {
+			"textures": [
+				"textures/blocks/part_builder_jungle"
+			]
+		},
+		"part_builder_acacia": {
+			"textures": [
+				"textures/blocks/part_builder_acacia"
+			]
+		},
+		"part_builder_dark_oak": {
+			"textures": [
+				"textures/blocks/part_builder_dark_oak"
+			]
+		},
+		"part_builder_maple": {
+			"textures": [
+				"textures/blocks/part_builder_maple"
+			]
+		},
+		"lavawood": {
+			"textures": [
+				"textures/blocks/lavawood"
+			]
+		},
+		"firewood": {
+			"textures": [
+				"textures/blocks/firewood"
+			]
+		},
+		"casting_basin_planks": {
+			"textures": [
+				"textures/blocks/casting_basin_planks"
+			]
+		},
+		"casting_basin_lavawood": {
+			"textures": [
+				"textures/blocks/casting_basin_lavawood"
+			]
+		},
+		"stencil_table_lavawood": {
+			"textures": [
+				"textures/blocks/stencil_table_lavawood"
+			]
+		},
+		"part_builder_firewood": {
+			"textures": [
+				"textures/blocks/part_builder_firewood"
+			]
+		},
+		"mud_bricks": {
+			"textures": [
+				"textures/blocks/mud_bricks"
+			]
+		},
+		"rack_raw_rabbit": {
+			"textures": [
+				"textures/blocks/rack_rabbit"
+			]
+		},
+		"rack_rabbit_jerky": {
+			"textures": [
+				"textures/blocks/rack_rabbit_jerky"
+			]
+		},
+		"rack_raw_fish": {
+			"textures": [
+				"textures/blocks/rack_fish"
+			]
+		},
+		"rack_fish_jerky": {
+			"textures": [
+				"textures/blocks/rack_fish_jerky"
+			]
+		},
+		"rack_raw_salmon": {
+			"textures": [
+				"textures/blocks/rack_salmon"
+			]
+		},
+		"rack_salmon_jerky": {
+			"textures": [
+				"textures/blocks/rack_salmon_jerky"
+			]
+		},
+		"rack_tropical_fish": {
+			"textures": [
+				"textures/blocks/rack_tropical_fish"
+			]
+		},
+		"rack_tropical_fish_jerky": {
+			"textures": [
+				"textures/blocks/rack_clownfish_jerky"
+			]
+		},
+		"rack_pufferfish": {
+			"textures": [
+				"textures/blocks/rack_pufferfish"
+			]
+		},
+		"rack_fugu_jerky": {
+			"textures": [
+				"textures/blocks/rack_fugu_jerky"
+			]
+		},
+		"rack_leather": {
+			"textures": [
+				"textures/blocks/rack_leather"
+			]
+		},
+		"rack_cooked_beef": {
+			"textures": [
+				"textures/blocks/rack_beef_cooked"
+			]
+		},
+		"rack_cooked_porkchop": {
+			"textures": [
+				"textures/blocks/rack_pork_cooked"
+			]
+		},
+		"rack_cooked_chicken": {
+			"textures": [
+				"textures/blocks/rack_chicken_cooked"
+			]
+		},
+		"rack_cooked_mutton": {
+			"textures": [
+				"textures/blocks/rack_mutton_cooked"
+			]
+		},
+		"rack_cooked_rabbit": {
+			"textures": [
+				"textures/blocks/rack_rabbit_cooked"
+			]
+		},
+		"rack_cooked_fish": {
+			"textures": [
+				"textures/blocks/rack_fish_cooked"
+			]
+		},
+		"rack_cooked_salmon": {
+			"textures": [
+				"textures/blocks/rack_salmon_cooked"
+			]
+		},
+		"rack_clay_ball": {
+			"textures": [
+				"textures/blocks/rack_clay_ball"
+			]
+		},
+		"rack_dried_brick": {
+			"textures": [
+				"textures/blocks/rack_dried_brick"
+			]
+		},
+		"dried_clay": {
+			"textures": [
+				"textures/blocks/dried_clay"
+			]
+		},
+		"dried_bricks": {
+			"textures": [
+				"textures/blocks/dried_bricks"
+			]
+		},
+		"rack_clay": {
+			"textures": [
+				"textures/blocks/rack_clay"
+			]
+		},
+		"rack_dried_clay": {
+			"textures": [
+				"textures/blocks/rack_dried_clay"
+			]
+		}
+	}
+}

@@ -1,0 +1,42 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "holyislands:sacred_oak_crafting_table",
+            "register_to_creative_menu": true
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "sacred_oak_crafting_table",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:pick_collision": {
+                "origin":  [-8, 0, -8],
+                "size":    [16, 16, 16]
+            },
+            "minecraft:entity_collision": {
+                "origin":  [-8, 0, -8],
+                "size":    [16, 16, 16]
+            },
+            "minecraft:loot": "loot_tables/blocks/sacred_oak_crafting_table.json",
+            "minecraft:geometry": "geometry.sacred_crafting_table",
+            "minecraft:destroy_time": 1.5,
+            "minecraft:explosion_resistance": 1,
+            "minecraft:block_light_emission": 0.0,
+            "minecraft:block_light_absorption": 0.0,
+            "minecraft:crafting_table": {
+                "grid_size": 3,
+                "crafting_tags": [
+                    "sacred_oak_crafting_table"
+                ]
+            },
+            "minecraft:map_color": "#00FF00",
+            "minecraft:flammable": {
+                "flame_odds": 0,
+                "burn_odds": 0
+            }
+		}
+    }
+}

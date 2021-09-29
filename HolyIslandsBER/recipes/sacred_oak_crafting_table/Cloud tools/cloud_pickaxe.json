@@ -1,0 +1,39 @@
+{
+  "format_version": 1.16,
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "holyislands:cloud_pickaxe"
+    },
+    "tags": [
+      "sacred_oak_crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "CBC",
+      " D "
+    ],
+    "key": {
+      "A": {
+        "item": "holyislands:gem_of_heaven",
+        "data": 0
+      },
+      "B": {
+        "item": "holyislands:sacred_stone_pickaxe",
+        "data": 0
+      },
+      "C": {
+        "item": "holyislands:cloud_orb",
+        "data": 0
+      },
+      "D": {
+        "item": "holyislands:cloud_fragment",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "holyislands:cloud_pickaxe",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

@@ -1,0 +1,16 @@
+//bridge-file-version: #2
+[
+	{
+		"flipbook_texture": "textures/blocks/firewood",
+		"atlas_tile": "firewood",
+		"ticks_per_frame": 5,
+		"blend_frames": false
+	},
+	{
+		"flipbook_texture": "textures/blocks/part_builder_firewood",
+		"atlas_tile": "part_builder_firewood",
+		"ticks_per_frame": 5,
+		"blend_frames": false
+	},
+	{}
+]

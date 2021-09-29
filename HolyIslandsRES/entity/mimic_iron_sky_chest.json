@@ -1,0 +1,26 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "holyislands:mimic_iron_sky_chest",
+      "materials": { "default": "zombie" },
+      "textures": {
+        "default": "textures/entity/mimic_iron_sky_chest"
+      },
+      "geometry": {
+        "default": "geometry.mimic_sky_chest"
+      },
+      "animation_controllers": [
+        { "main": "controller.animation.mimic_sky_chest.main" }
+      ],
+      "animations": {
+        "main": "animation.mimic_sky_chest.main"
+      },
+      "render_controllers": [ "controller.render.holyislands" ],
+      "spawn_egg": {
+        "texture": "spawn_mimic_iron_sky_chest_egg",
+        "texture_index": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.black_sun_berry_bush_grow",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Bush",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "wood",
+					"parent": "Bush",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-2, 0, -1], "size": [2, 1, 2], "uv": [2, 4]},
+						{"origin": [1, 0, -3], "size": [1, 1, 2], "uv": [5, 4]},
+						{"origin": [-1, 0, -2], "size": [2, 3, 2], "uv": [3, 2]}
+					]
+				},
+				{
+					"name": "leaves",
+					"parent": "Bush",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-2, 3, -3], "size": [4, 3, 4], "uv": [43, 5]}
+					]
+				},
+				{
+					"name": "berry",
+					"parent": "leaves",
+					"pivot": [0, 0, 0]
+				}
+			]
+		}
+	]
+}

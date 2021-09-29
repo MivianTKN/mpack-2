@@ -1,0 +1,15 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:block": {
+     "description": {
+        "identifier": "holyislands:sacred_dirt_block",
+        "register_to_creative_menu": true,
+        "is_experimental": false
+      },
+      "components": {
+      "minecraft:explosion_resistance": 1,
+      "minecraft:destroy_time": 0.8,
+          "minecraft:loot": "loot_tables/blocks/sacred_dirt_block.json"
+     }
+    }
+  }

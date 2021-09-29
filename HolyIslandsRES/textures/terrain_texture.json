@@ -1,0 +1,131 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "sacred_grass_block_top": {
+      "textures": "textures/blocks/sacred_grass_block_top"
+    },
+    "sacred_grass_block_side": {
+      "textures": "textures/blocks/sacred_grass_block_side"
+    },
+    "sacred_grass_block_bottom": {
+      "textures": "textures/blocks/sacred_dirt_block"
+    },
+    "sacred_dirt_block": {
+      "textures": "textures/blocks/sacred_dirt_block"
+    },
+    "sacred_stone_block": {
+      "textures": "textures/blocks/sacred_stone_block"
+    },
+    "sacred_cobblestone_block": {
+      "textures": "textures/blocks/sacred_cobblestone_block"
+    },
+    "sacred_tallgrass_1": {
+      "textures": "textures/blocks/sacred_tallgrass_1"
+    },
+    "sacred_tallgrass_2": {
+      "textures": "textures/blocks/sacred_tallgrass_2"
+    },
+    "sacred_tallgrass_3": {
+      "textures": "textures/blocks/sacred_tallgrass_3"
+    },
+    "sacred_oak_log_block_top": {
+      "textures": "textures/blocks/sacred_oak_log_block_top"
+    },
+    "sacred_oak_log_block_side": {
+      "textures": "textures/blocks/sacred_oak_log_block_side"
+    },
+    "sacred_oak_wood_planks_block": {
+      "textures": "textures/blocks/sacred_oak_wood_planks_block"
+    },
+    "sacred_oak_leaves_block": {
+      "textures": "textures/blocks/sacred_oak_leaves_block"
+    },
+    "black_sun_berry_bush_1": {
+      "textures": "textures/blocks/black_sun_berry_bush_1"
+    },
+    "black_sun_berry_bush_2": {
+      "textures": "textures/blocks/black_sun_berry_bush_2"
+    },
+    "black_sun_berry_bush_grow": {
+      "textures": "textures/blocks/black_sun_berry_bush_grow"
+    },
+    "pedestal": {
+      "textures": "textures/blocks/pedestal"
+    },
+    "iron_sky_chest": {
+      "textures": "textures/blocks/iron_sky_chest"
+    },
+    "mimic_iron_sky_chest": {
+      "textures": "textures/blocks/mimic_iron_sky_chest"
+    },
+    "sacred_stonebrick_block": {
+      "textures": "textures/blocks/sacred_stonebrick_block"
+    },
+    "sacred_stonebrick_cracked_block": {
+      "textures": "textures/blocks/sacred_stonebrick_cracked_block"
+    },
+    "sacred_stonebrick_carved_block": {
+      "textures": "textures/blocks/sacred_stonebrick_carved_block"
+    },
+    "mimic_statue": {
+      "textures": "textures/blocks/mimic_statue"
+    },
+    "sacred_wood_chair": {
+      "textures": "textures/blocks/sacred_wood_chair"
+    },
+    "sacred_wood_table": {
+      "textures": "textures/blocks/sacred_wood_table"
+    },
+    "small_vessel": {
+      "textures": "textures/blocks/small_vessel"
+    },
+    "medium_vessel": {
+      "textures": "textures/blocks/medium_vessel"
+    },
+    "big_vessel": {
+      "textures": "textures/blocks/big_vessel"
+    },
+    "sacred_oak_crafting_table": {
+      "textures": "textures/blocks/sacred_oak_crafting_table"
+    },
+    "small_royal_vessel": {
+      "textures": "textures/blocks/small_royal_vessel"
+    },
+    "medium_royal_vessel": {
+      "textures": "textures/blocks/medium_royal_vessel"
+    },
+    "big_royal_vessel": {
+      "textures": "textures/blocks/big_royal_vessel"
+    },
+    "cloud_block": {
+      "textures": "textures/blocks/cloud_block"
+    },
+    "cloud_bricks": {
+      "textures": "textures/blocks/cloud_bricks"
+    },
+    "cloud_block_chiseled_side": {
+      "textures": "textures/blocks/cloud_block_chiseled_side"
+    },
+    "cloud_block_chiseled_bottom": {
+      "textures": "textures/blocks/cloud_block_chiseled_top"
+    },
+    "cloud_block_chiseled_top": {
+      "textures": "textures/blocks/cloud_block_chiseled_top"
+    },
+    "cloud_block_lines_side": {
+      "textures": "textures/blocks/cloud_block_lines_side"
+    },
+    "cloud_block_lines_top": {
+      "textures": "textures/blocks/cloud_block_lines_top"
+    },
+    "cloud_block_lines_bottom": {
+      "textures": "textures/blocks/cloud_block_lines_top"
+    },
+    "sacred_apple_block": {
+      "textures": "textures/blocks/sacred_apple_block"
+    }
+  }
+}

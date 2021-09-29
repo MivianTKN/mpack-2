@@ -1,0 +1,26 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                {      
+                    "type": "item",
+                    "weight": 1,
+                    "name": "holyislands:black_sun_berry_bush_seeds",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 1                             
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
